@@ -3,7 +3,7 @@ beforeEach(function () {
     toBePlaying: function () {
       return {
         compare: function (actual, expected) {
-          var player = actual;
+          var fizzbuzz = actual;
 
           return {
             pass: player.currentlyPlayingSong === expected && player.isPlaying
